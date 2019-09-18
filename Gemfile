@@ -10,7 +10,7 @@ gem 'bootstrap'
 gem 'rails', '~> 5.1.7'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-glyphicons'
-gem 'sqlite3'
+# gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -42,6 +42,11 @@ group :development, :test do
   gem 'capybara', '>= 2.15'
   gem 'foreman'
   gem 'selenium-webdriver'
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
 end
 
 group :development do
