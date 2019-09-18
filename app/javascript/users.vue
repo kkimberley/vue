@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>User Table</h1>
+    <h1>Rakuten F2E Assignment</h1>
     <button @click="newUser()" class="btn btn-info">Add User</button>
     <hr/>
     <table class="table">
